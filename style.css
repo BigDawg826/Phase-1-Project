@@ -1,0 +1,31 @@
+body {
+  max-width: 550px;
+  margin: auto;
+  padding: 2rem;
+}
+
+#selected-breed {
+  border: solid 1px #ccc;
+  border-radius: 20px;
+  padding: 0 0 10px 0;
+}
+
+#selected-breed img {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px 20px 0 0;
+}
+
+#selected-breed p {
+  margin: 0.25rem;
+}
+
+#randomize-breed {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
